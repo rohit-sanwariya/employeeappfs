@@ -1,0 +1,98 @@
+# Dotnet (.NET) Ignore Rules
+
+# Visual Studio Files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Artifacts
+bin/
+obj/
+out/
+publish/
+*.dll
+*.pdb
+*.exe
+*.apphost
+*.db
+*.cache
+*.log
+*.tmp
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# User Secrets
+secrets.json
+
+# Entity Framework
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Rider/JetBrains
+.idea/
+*.iml
+
+# Test Results
+TestResults/
+.trx
+*.coverage
+
+# Other
+local.settings.json
+Generated_Code/
+app.publish/
+project.lock.json
+.DS_Store
+
+# Docker
+**/docker-compose.override.yml
+docker-compose.*
+docker-compose.*.yml
+
+# Angular Project Ignore Rules
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Compiled and Build Files
+dist/
+tmp/
+out-tsc/
+coverage/
+*.js
+*.map
+*.tsbuildinfo
+.angular/
+
+# IDE Configs
+.vscode/
+*.log
+*.bak
+
+# Angular Cache
+.angular/cache
+
+# Environment and Secrets
+src/environments/environment.*.ts
+src/environments/environment.prod.ts
+
+# Misc
+.DS_Store
+Thumbs.db
+package-lock.json
+yarn.lock
+*.tgz

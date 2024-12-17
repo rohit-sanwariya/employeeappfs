@@ -1,0 +1,6 @@
+@employeeappfs_HostAddress = http://localhost:5160
+
+GET {{employeeappfs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
